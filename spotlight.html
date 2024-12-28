@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zackary Bowling CS435 Project 4</title>
+</head>
+<body>
+  <div id="controls">
+    <h3>Spotlight Controls</h3>
+    <label for="spotlight-position">Spotlight Position:</label>
+    <select id="spotlight-position">
+      <option value="1">Position 1</option>
+      <option value="2">Position 2</option>
+      <option value="3">Position 3</option>
+      <option value="4">Position 4</option>
+      <option value="5">Position 5</option>
+    </select>
+
+    <div>
+      <button id="increase-cutoff">Increase Cutoff Angle</button>
+      <button id="decrease-cutoff">Decrease Cutoff Angle</button>
+    </div>
+
+    <div>
+      <button id="aim-left">Aim Left</button>
+      <button id="aim-right">Aim Right</button>
+      <button id="aim-up">Aim Up</button>
+      <button id="aim-down">Aim Down</button>
+    </div>
+  </div>
+
+  <div id="controls">
+    <h3>Camera Controls</h3>
+    <label for="camera-position">Camera Position:</label>
+    <select id="camera-position">
+      <option value="A">Position A</option>
+      <option value="B">Position B</option>
+      <option value="C">Position C</option>
+      <option value="D">Position D</option>
+      <option value="E">Position E</option>
+      <option value="F">Position F</option>
+    </select>
+  </div>
+
+  <canvas id="glCanvas"></canvas>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="spotlight.js"></script>
+</body>
+</html>
