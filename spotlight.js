@@ -1,6 +1,5 @@
 //Zackary Bowling
-// CS435
-// Project 4
+
 
 /*
 This project uses a model consisting of a room with eight walls and a floor
